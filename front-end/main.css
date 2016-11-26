@@ -1,0 +1,76 @@
+body {
+  width       : 45rem;
+  margin      : 0 auto;
+  line-height : 2rem;
+}
+
+h1 {
+  font-size   : 3rem;
+  line-height : 3rem;
+}
+
+h2 {
+  font-size   : 2rem;
+  line-height : 3.2rem;
+}
+
+h3 {
+  font-size   : 1.6rem;
+  line-height : 1.8rem;
+}
+
+h4 {
+  font-size   : 1.4rem;
+  line-height : 1.6rem;
+}
+
+h5 {
+  font-size   : 1.2rem;
+  line-height : 1.4rem;
+}
+
+h6 {
+  font-size   : 1rem;
+  line-height : 1.2rem;
+}
+
+a,
+a:visited {
+  color           : blue;
+  text-decoration : none;
+}
+
+a:hover {
+  color           : red;
+  text-decoration : none;
+}
+
+ul,
+ul li {
+  display    : inline-block;
+  padding    : 0;
+  list-style : none;
+}
+
+body > header {
+  height        : 3rem;
+  border-bottom : 1px dashed blue;
+}
+
+body > header li:not(:last-of-type),
+footer li:not(:last-of-type) {
+  padding-right : 0.5rem;
+}
+
+#sa_b,
+#sa_t {
+  text-align : center;
+}
+
+article header {
+  text-align : center;
+}
+
+footer {
+  border-top : 1px dashed blue;
+}

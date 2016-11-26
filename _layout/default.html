@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{page.title}}{{#page.title}} - {{/page.title}}{{template.site_title}}</title>
+    <meta name="description" content="{{page.description}}">
+    {{{template.header_tags}}}
+    {{{template.inline_css}}}
+</head>
+<body>
+    <header>
+        <ul>
+        {{#template.header_links}}
+            <li><a href="{{{href}}}" title="{{title}}">{{text}}</a></li>
+        {{/template.header_links}}
+        </ul>
+    </header>
+    <article>
+        <header>
+            {{#page.title}}<h1>{{page.title}}</h1>{{/page.title}}
+            {{^page.title}}<h1>{{template.untitled_document_text}}</h1>{{/page.title}}
+            {{#page.sub_title}}<h2>{{page.sub_title}}</h2>{{/page.sub_title}}
+        </header>
+        <aside id="sa_t">{{{template.top_ad_html}}}</aside>
+        {{{page.content}}}
+        <aside id="sa_b">{{{template.bottom_ad_html}}}</aside>
+    </article>
+    <aside>
+    </aside>
+    <footer>
+        <ul>
+        {{#template.footer_links}}
+        <li><a href="{{{href}}}" title="{{title}}">{{text}}</a></li>
+        {{/template.footer_links}}
+        </ul>
+        <ul>
+        {{#template.footer_links2}}
+        <li><a href="{{{href}}}" title="{{title}}">{{text}}</a></li>
+        {{/template.footer_links2}}
+        </ul>
+        {{{site.footer_link_tags}}}
+
+        {{{template.copyright_html}}}
+        {{{template.powered_by}}}
+
+        {{{template.script_html}}}
+    </footer>
+</body>
+</html>

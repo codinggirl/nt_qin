@@ -1,0 +1,163 @@
+# Theme config file
+
+# 网站名称
+# Web site title
+site_title: 'My Website / 我的网站'
+
+# 头部标签
+# Header raw html
+header_tags: |
+    <link rel="stylesheet" href="./front-end/main.css" />
+
+# 未命名文档标题
+# Untitled document title
+untitled_document_text: 'Untitled Doucment'
+
+# 版权信息
+# Copyright information
+copyright_html: '<p>&copy; 2006-2016 Libre Rose Studio. All rights reserved. 兰若工作室 版权所有。</p>'
+
+# 广告代码
+# Ad
+top_ad_html: | 
+    ad code line 1
+    ad code line 2
+    ...
+
+# 广告代码
+# Another ad
+bottom_ad_html: | 
+    ad code line 1
+    ad code line 2
+    ...
+
+# 头部链接
+# Header links
+header_links:
+    - href: '/'
+      title: 'Go to Home'
+      text: 'Home'
+    - href: '/'
+      title: 'About Us'
+      text: 'About'
+    - href: '/'
+      title: 'Contact Us'
+      text: 'Contact'
+
+# 尾部链接
+# Footer links
+footer_links:
+    - href: '/'
+      title: 'Go to Home'
+      text: 'Home'
+    - href: '/'
+      title: 'About Us'
+      text: 'About'
+    - href: '/'
+      title: 'Contact Us'
+      text: 'Contact'
+
+# 尾部链接2
+# Another footer links
+footer_links2:
+    - href: '/tos.html'
+      title: 'Terms'
+      text: 'Terms'
+    - href: '/privacy.html'
+      title: 'Privacy'
+      text: 'Privacy'
+    - href: '/sitemap.html'
+      title: 'Sitemap'
+      text: 'Sitemap'
+
+# Script html
+script_html: 
+
+# 内联样式表
+# Inner css
+inline_css: |
+    <style>
+    body {
+    width       : 45rem;
+    margin      : 0 auto;
+    line-height : 2rem;
+    }
+
+    h1 {
+    font-size   : 3rem;
+    line-height : 3rem;
+    }
+
+    h2 {
+    font-size   : 2rem;
+    line-height : 3.2rem;
+    }
+
+    h3 {
+    font-size   : 1.6rem;
+    line-height : 1.8rem;
+    }
+
+    h4 {
+    font-size   : 1.4rem;
+    line-height : 1.6rem;
+    }
+
+    h5 {
+    font-size   : 1.2rem;
+    line-height : 1.4rem;
+    }
+
+    h6 {
+    font-size   : 1rem;
+    line-height : 1.2rem;
+    }
+
+    a,
+    a:visited {
+    color : blue;
+    text-decoration: none;
+    }
+
+    a:hover {
+    color : red;
+    text-decoration: none;
+    }
+
+    ul,
+    ul li {
+    padding: 0;
+    display    : inline-block;
+    list-style : none;
+    }
+
+    body > header {
+    height        : 3rem;
+    border-bottom : 1px dashed blue;
+    }
+
+    body > header li:not(:last-of-type),
+    footer li:not(:last-of-type) {
+    padding-right : 0.5rem;
+    }
+
+    #sa_b,
+    #sa_t {
+    text-align : center;
+    }
+
+    article header {
+    text-align : center;
+    }
+
+    footer {
+    border-top : 1px dashed blue;
+    }
+    </style>
+
+# Powered by Information
+powered_by: >
+    <p>Powered by <a href="https://github.com/codinggirl/ning">Ning</a>. Theme is <a href="https://github.com/codinggirl/nt_qin">Qin</a>.</p>
+
+# Any other tags, you can custom it, use it with `template.var_name` in your html template.
+# 您可添加更多的标签，在模版中以 template.var_name 的形式访问

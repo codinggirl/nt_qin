@@ -2,12 +2,6 @@
 
 [Qin](https://github.com/codinggirl/nt_qin) is a [Ning](https://github.com/codinggirl/ning) template & theme.
 
-## Documentation
-
-[See more here.](docs/en/README.md)
-
-[简体中文用户文档](docs/zh-CN/README.md)
-
 ## How to use
 
 - Install Ning if you not install it yet.
